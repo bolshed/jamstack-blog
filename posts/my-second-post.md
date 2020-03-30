@@ -1,0 +1,10 @@
+---
+title: 'my second post'
+date: 2020-03-22
+description: 'my 2nd entry'
+author: 'Bobby'
+layout: 'layouts/post.njk'
+---
+
+# My second post
+Boogza boogzaaa!
