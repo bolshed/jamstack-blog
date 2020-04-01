@@ -20,8 +20,8 @@ collections:
 media_library:
   name: cloudinary
   config:
-    cloud_name: dibnwiivf,
-    api_key: 246648221489253,
+    cloud_name: dibnwiivf
+    api_key: 246648221489253
     default_transformations:
       - fetch_format: auto
         quality: auto
