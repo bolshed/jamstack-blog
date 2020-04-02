@@ -1,4 +1,4 @@
---- 
+---
 pagination:
   data: collections.posts
   size: 2
@@ -17,18 +17,17 @@ layout: layouts/base.njk
         {{ post.data.description }}
       </h3>
     </a>
-  </p> Tags: 
-  {{ post.data.tags }}
-</div>
-<hr>
+    <p class="post-meta">Posted by <img src="https://res.cloudinary.com/dibnwiivf/image/upload/f_auto,q_auto,w_26,h_26,c_thumb,r_max/v1585670487/kiten_smsrjr.jpg"></img> {{ post.data.author }}<span> on </span> {{ post.data.date | formatDate }}</p>
+  </div>
+  <hr>
 {% endfor %}
 {# <pre>{{ pagination | dump }}</pre> #}
 <div style="text-align: center;">
-{% if pagination.previous %}
-  <a class="btn btn-primary float-left" href="{{ pagination.previousPageLink | url }}">← Newer Posts</a>
-{% endif %}
+  {% if pagination.previous %}
+    <a class="btn btn-primary float-left" href="{{ pagination.previousPageLink | url }}">← Newer Posts</a>
+  {% endif %}
 
-{% if pagination.next %}
-  <a class="btn btn-primary float-right" href="{{ pagination.nextPageLink | url }}">Older Posts →</a>
-{% endif %}
+  {% if pagination.next %}
+    <a class="btn btn-primary float-right" href="{{ pagination.nextPageLink | url }}">Older Posts →</a>
+  {% endif %}
 </div>

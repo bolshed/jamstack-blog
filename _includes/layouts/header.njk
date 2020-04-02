@@ -4,8 +4,14 @@
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
         <div class="post-heading">
+          {% if author %}
           <h1>{{ title }}</h1>
           <h2 class="subheading">{{ description }}</h2>
+              <p class="post-meta">Posted by <img src="https://res.cloudinary.com/dibnwiivf/image/upload/f_auto,q_auto,w_26,h_26,c_thumb,r_max/v1585670487/kiten_smsrjr.jpg"></img> {{ author }}<span> on </span> {{ date | formatDate }}</p>
+          {% else %}
+          <h1>{{ title }}</h1>
+          <h2 class="subheading">{{ description }}</h2>
+          {% endif %}
         </div>
       </div>
     </div>
