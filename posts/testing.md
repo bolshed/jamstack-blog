@@ -1,7 +1,7 @@
 ---
 title: testing
 date: 2020-04-01T15:32:00.000Z
-author: B
+author: Bibop Rocksteady
 description: just a test
 layout: layouts/post.njk
 ---

@@ -2,7 +2,7 @@
 title: 'my Second post'
 date: 2020-03-22
 description: 'my 2nd entry'
-author: 'Bobby'
+author: 'Bobby Oh'
 layout: 'layouts/post.njk'
 ---
 

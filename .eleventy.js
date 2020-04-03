@@ -14,4 +14,5 @@ module.exports = function (eleventConfig) {
         const d = new Date(date);
         return `${d.toLocaleDateString(ISOcode, options)}`;
     })
+    eleventConfig.addFilter('sanitize', value => value.split(' ').join('-').toLowerCase())
 }
