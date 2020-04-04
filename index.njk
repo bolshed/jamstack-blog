@@ -17,7 +17,7 @@ layout: layouts/base.njk
         {{ post.data.description }}
       </h3>
     </a>
-    <p class="post-meta">Posted by <img src="https://res.cloudinary.com/dibnwiivf/image/upload/f_auto,q_auto,w_26,h_26,c_thumb,r_max/v1585670487/kiten_smsrjr.jpg"></img> {{ post.data.author }}<span> on </span> {{ post.data.date | formatDate }}</p>
+    <p class="post-meta">Posted by <img src="https://res.cloudinary.com/dibnwiivf/image/upload/f_auto,q_auto,w_26,h_26,c_thumb,r_max,d_avatar2.png/v1585670487/jamstack-blog/{{ post.data.author | sanitize }}"></img> {{ post.data.author }}<span> on </span> {{ post.data.date | formatDate }}</p>
   </div>
   <hr>
 {% endfor %}
