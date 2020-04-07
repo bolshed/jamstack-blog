@@ -1,3 +1,5 @@
+// "use strict";
+
 document.addEventListener('DOMContentLoaded', function() {
   const searchClient = algoliasearch('JL7BROHM5Z', 'd36c790225de9ec79cefd7c0e728619e');
     

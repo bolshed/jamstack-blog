@@ -16,7 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/bolshed/jamstack-blog.git"
   },
-  "author": "",
+  "author": "Bobby Oh",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bolshed/jamstack-blog/issues"
