@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "algoliasearch": "^3.35.1"
+    "@11ty/eleventy": "^0.10.0",
+    "algoliasearch": "^3.35.1",
+    
   },
   "devDependencies": {},
   "scripts": {
