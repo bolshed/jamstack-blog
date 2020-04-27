@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
     indexName: 'blog',
     searchClient,
     searchFunction: function(helper) {
-      var searchResults = $('#search_results');
-      var hits = $('#hits');
+      const searchResults = $('#search_results');
+      const hits = $('#hits');
       if (helper.state.query === '') {
         // empty query string -> hide the search results & abort the search
         hits.hide();

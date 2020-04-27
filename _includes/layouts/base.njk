@@ -1,6 +1,6 @@
 ---
 title: 'Bobby Oh'
-description: 'description'
+description: 'Кочина'
 ---
 
 <!DOCTYPE html>
@@ -12,13 +12,14 @@ description: 'description'
 
 <body>
   {% include 'layouts/nav.njk' %}
+
   {% include 'layouts/header.njk' %}
 
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
-        {% include 'layouts/search-results.njk' %} 
-        {{ content | safe }}
+          {% include 'layouts/search-results.njk' %}
+          {{ content | safe }}
       </div>
     </div>
   </div>

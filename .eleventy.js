@@ -37,5 +37,6 @@ module.exports = function(eleventyConfig) {
       }
     });
     return algoliaIndex.saveObjects(index);
+    // return console.log(index);
   })
 };
