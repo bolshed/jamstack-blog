@@ -7,4 +7,4 @@ layout: 'layouts/post.njk'
 ---
 
 # My second post
-Boogza boogzaaa!
+Here comes the hotstepper...

@@ -7,7 +7,7 @@
           {% if author %}
           <h1>{{ title }}</h1>
           <h2 class="subheading">{{ description }}</h2>
-              <p class="post-meta">Posted by <img src="https://res.cloudinary.com/dibnwiivf/image/upload/f_auto,q_auto,w_26,h_26,c_thumb,r_max/v1585670487/kiten_smsrjr.jpg"></img> {{ author }}<span> on </span> {{ date | formatDate }}</p>
+              <p class="post-meta">Posted by <img src="https://res.cloudinary.com/dibnwiivf/image/upload/f_auto,q_auto,w_26,h_26,c_thumb,r_max,d_avatar2.png/v1585670487/jamstack-blog/{{ author | sanitize }}.jpg"></img> {{ author }}<span> on </span> {{ date | formatDate }}</p>
           {% else %}
           <h1>{{ title }}</h1>
           <h2 class="subheading">{{ description }}</h2>
