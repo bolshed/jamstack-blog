@@ -1,1 +1,7 @@
-# jamstack-blog
+# JAMstack personal blog demo
+
+Blog site made using Eleventy, Nunjucks, Netlify, Cloudinary, Formspree and Algoliasearch.
+
+I used a ready-made Bootstrap theme which I then edited and connected with all the tools/services that were needed to make it run.
+It's deployed on Netlify. It's using Cloudinary for image/video storage. Contact form and search are functioning through Formspree and Algolia respectively.
+There's also an admin panel (by Netlify) through which the user can add/edit/delete blog posts (for which I have to send email invitation, of course :) )
